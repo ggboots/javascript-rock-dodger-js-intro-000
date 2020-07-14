@@ -39,7 +39,7 @@ function createRock(x) {
 
   function moveRock() {
     rock.style.top = `${top += 2}px`;
-    
+
     if (checkCollision(rock)){
       return endGame()
     }
@@ -67,7 +67,7 @@ function endGame() {
   return alert('YOU LOSE!')
 }
 
-// Game-Control 
+// Game-Control
 
 function moveDodger(e) {
   const code = e.which
